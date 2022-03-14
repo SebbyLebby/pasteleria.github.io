@@ -1,0 +1,159 @@
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+
+/*-------General style-------*/
+*{
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #16567b;
+  font-family: "Times New Roman";
+}
+
+
+
+/*-------TÍTULO PRINCIPAL-------*/
+h1.maintitle {
+  text-align: center;
+  color: whitesmoke;
+  font-size: 70px;
+  text-decoration: underline overline;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+/*-------SUBTÍTULOS-------*/
+h2.subtitle{
+  color: whitesmoke;
+  font-size: 50px;
+}
+
+.extra{
+  text-decoration: underline;
+}
+
+/*-------SECCIONES DE PÁGINA-------*/
+.divisiones{
+  font-family: "Times New Roman", Times, serif;
+  color: #F0C266;
+  font-size: 35px;
+}
+
+/*-------TÍTULO CONTACTO-------*/
+h1.last {
+  text-align: center;
+  color: whitesmoke;
+  font-size: 70px;
+  text-decoration: underline;
+}
+
+/*-------NAVBAR-------*/
+.topnav {
+  overflow: hidden;
+  display: inline-block;
+  
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  padding: 20px 50px;
+  text-decoration: none;
+  font-size: 30px;
+  border: 1px solid black;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  
+  color: white;
+  background-color: #fd4755;
+  
+}
+
+/* Add a color to the active/current link 
+.topnav a.active {
+  color: white;
+}
+*/
+
+/*TERMINA NAVBAR*/
+
+.prueba{
+  font-family: system-ui, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+
+#sabor{
+  font-family: system-ui, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+/*-------Posición de imágenes de decoración-------*/
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 1px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+figure figcaption {
+  text-align: center;
+}
+
+/*Fin de posiciones de imágenes de decoración*/
+
+
+/*-------FORMULARIO-------*/
+input[type = "text"]{
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: white;
+  border: 3.5px solid black;
+  font-size: 22px;
+}
+
+
+
+input[type = "submit"]{
+  text-align: center;
+  float: left;
+  padding: 10px 20px;
+  margin: 10px 0;
+  margin-left: 700px;
+  background: #fd4755;
+  color: white;
+  font-size: 20px;
+  border: 3px solid black;
+  
+}
+
+input[type = "reset"]{
+
+  float: left;
+  padding: 10px 20px;
+  margin: 10px 0;
+  margin-left: 150px;
+  background: #fd4755;
+  color: white;
+  font-size: 20px;
+  border: 3px solid black;
+
+}
+/*-------FIN DE FORMULARIO-------*/
+

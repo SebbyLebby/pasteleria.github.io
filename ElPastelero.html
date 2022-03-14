@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "css/styles.css">
+    <title>El Pastelero</title>
+</head>
+
+
+<body>
+
+    <header>
+
+    <!-------L O G O------->
+    
+        <img src="images/ElPastelero.png" class = "center" width="400" height = "400" alt = "logo"/>
+        <h1 class = "maintitle center"> El Pastelero</h1>
+    
+    <!-------N A V B A R------->
+
+        <div class="topnav">
+            <a href="#inicio">Inicio</a>
+            <a href="#pasteles">Pasteles</a>
+            <a href="#condimentos">Condimentos</a>
+            <a href="#decoraciones">Decoraciones</a>
+            <a href="#contacto">Contacto</a>
+        </div>
+
+    </header>
+
+    <section class = "inicio" >
+        <a name = inicio></a>
+        <h2 class = "subtitle">Inicio</h2>
+    </section>    
+
+
+    <!--P A S T E L E S / S A B O R E S-->
+    <section class = "divisiones">
+
+        <a name = pasteles></a>
+        <h2 class = "subtitle"> Sabores de pasteles </h2>
+
+        <input type="radio" id="sabor" name="sabores" value="Tresleches">
+        <label class = "prueba" for="tresleches">Tres leches</label><br>
+
+        <input type="radio" id="sabor" name="sabores" value="Chocolate">
+        <label class = "prueba" for="chocolate">Chocolate</label><br>
+
+        <input type="radio" id="sabor" name="sabores" value="Framb">
+        <label class = "prueba" for="framb">Frambuesa</label><br>
+
+        <input type="radio" id="sabor" name="sabores" value="Vainilla">
+        <label class = "prueba" for="vainilla">Vainilla</label><br>
+
+        <input type="radio" id="sabor" name="sabores" value="Fresaa">
+        <label class = "prueba" for="fresaa">Fresa</label><br>
+
+        <input type="radio" id="sabor" name="sabores" value="Limon">
+        <label class = "prueba" for="limon">Limón</label>
+
+    </section>
+
+
+    <!-- C O M B I N A C I O N E S / S A B O R E S-->
+    <section class = "divisiones">
+
+        <h2 class = "subtitle">Sabores combinados</h2>
+        <input type="radio" id="topping1" name="topping1" value="comb1">
+        <label for="topping1">Tres leches con chocolate</label><br>
+
+        <input type="radio" id="topping2" name="topping2" value="comb2">
+        <label for="topping2">Chocolate con vainilla</label><br>
+
+        <input type="radio" id="topping3" name="topping3" value="comb3">
+        <label for="topping3">Vainilla con fresa</label><br><br>
+
+    </section>
+
+    <!--C O N D I M E N T O S-->
+    <a name = condimentos></a>
+    <h2 class = "subtitle"> Condimentos para darle más sabor a tu pastel </h2>
+
+    <section class = "divisiones">
+        
+        
+        <h3> Frutas: </h3>
+        <input type="checkbox" id="blueberry" name="frutas" value="Frambuesa">
+        <label for="frambuesa">Frambuesa</label><br>
+
+        <input type="checkbox" id="cherry" name="frutas" value="Cereza">
+        <label for="cereza">Cereza</label><br>
+
+        <input type="checkbox" id="mangos" name="frutas" value="Mango">
+        <label for="mango">Mango</label><br>
+
+        <input type="checkbox" id="strawberry" name="frutas" value="Fresa">
+        <label for="fresa">Fresa</label><br>
+
+        <input type="checkbox" id="kw" name="frutas" value="Kiwi">
+        <label for="kiwi">Kiwi</label><br>
+
+        <h3> Otros condimentos deliciosos: </h3>
+
+        <input type="checkbox" id="chocochips" name="frutas" value="Chispaschoco">
+        <label for="chispaschoco">Chispitas de chocolate</label><br>
+
+        <input type="checkbox" id="oreo" name="frutas" value="Galletaoreo">
+        <label for="galletaoreo">Galletas oreo</label><br>
+
+        <input type="checkbox" id="cacahu" name="frutas" value="Cacahuates">
+        <label for="cacahuaetes">Cacahuates</label><br>
+
+        <input type="checkbox" id="almond" name="frutas" value="Almendra">
+        <label for="almendra">Almendra</label><br>
+
+    </section>
+
+    <!--A D O R N O S-->
+    <a name = decoraciones></a>
+    <section class = "divisiones">
+        
+        <h2 class = "subtitle" id = title> Decoraciones para que tu pastel se vea increíble </h2>
+
+        <div class="row">
+            <div class="column">
+
+                <figure>
+                <img src="images/flores.jpg" alt="adorno floral" width="450px" height="300px"/>
+                <figcaption><i>Adorno floral</i></figcaption>
+            </div>
+                </figure>
+
+            <div class="column">
+                <figure>
+                <img src="images/stitch.jpg" alt="personajes" width="450px" height="300px"/>
+                <figcaption><i>Personajes</i></figcaption>
+                </figure>
+            </div>
+
+            <div class="column">
+                <figure>
+                <img src="images/superheroes.jpg" alt="superheroes" width="450px" height="300px">
+                <figcaption><i>Super héroes</i></figcaption>
+                </figure>
+            </div>
+        </div>
+        
+
+        <!---A D O R N O S / I M Á G E N E S--->
+
+        
+        <h2 class = "subtitle"> Selecciona el adorno de tu preferencia: </h2>
+        <input type="checkbox" id="flowers" name="adornos" value="Flores">
+        <label for="flores">Flores</label><br>
+
+        <input type="checkbox" id="characters" name="adornos" value="Personajes">
+        <label for="corazones">Personajes</label><br>
+
+        <input type="checkbox" id="super" name="adornos" value="Superheroes">
+        <label for="superheroes">Superhéroes</label><br>
+
+    </section>
+
+    <!-- F O R M U L A R I O -->
+    
+    <h2 class = "subtitle">Introduzca sus datos en el formulario:</h2>
+
+    <section class = "divisiones">
+
+        <form action="/accion.js" id="form1" method="post">
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre"><br><br>
+
+            <label for="tel1">Teléfono/Celular:</label>
+            <input type="text" id="tel1" name="tel1" maxlength="10"><br><br>
+
+            <label for="mail">Correo electrónico:</label>
+            <input type="text" id="mail" name="mail"><br><br>
+
+            <label for="pastel">Descripción del pastel:</label>
+            <input type="text" id="pastel" name="pastel"><br><br>
+
+            <label for="flavors">Sabores de pastel:</label>
+            <input type="text" id="flavors" name="flavors"><br><br>
+
+            <label for="ornament">Adornos del pastel:</label>
+            <input type="text" id="ornament" name="ornament"><br><br>
+
+            <br>
+
+    <!--B U T T O N - I N P U T-->
+            <section class = "botones">
+
+                <div class = "firstbutton">
+                    <input type="submit" value="Submit" style = "height: 70px; width: 150px"/>
+                </div>
+
+                <div class = "secondbutton">
+                    <input type="reset" value = "Reset" style = "height: 70px; width: 150px"/>
+                </div>
+
+            </section>
+        </form>
+
+    </section>
+
+    <section class = "divisiones">
+
+        <br>
+        <br>
+        
+    <!--C O N T A C T O-->
+        <a name = contacto></a>
+        <h1 class = "last"> Contáctanos </h1>
+        <h2 class = "subtitle"> Dirección </h2>
+        <p> Hamburgo 186, Cuauhtémoc, 06600 Ciudad de México, CDMX </p>
+
+        <h2 class = "subtitle"> Teléfono </h2>
+        <p> 55-20-17-31-66 </p>
+
+        <h2 class = "subtitle"> Horarios de atención </h2>
+        <p> Lunes, Martes, Miércoles, Jueves y Viernes : 9am - 9pm </p>
+        <p> Sábado y Domingo : 10am - 4pm </p>
+    </section>
+
+
+</body>
+</html>
